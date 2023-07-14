@@ -1,0 +1,39 @@
+QSlider::groove{
+    border-radius:5px;
+    border: 1px solid #000000;
+    height: 8px;
+}
+
+QSlider::handle {
+    border-radius:5px;
+    background:rgba(80,166,234,1);
+    width: 18px;
+    margin: -3px 0;
+}
+QSlider::sub-page{
+    border-radius:4px;
+    background:rgba(135,206,250,1);
+    margin: 1px 0;
+}
+
+QToolButton {
+    background-color: #ffffff;
+    border: 1px solid #dcdfe6;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+QToolButton:hover {
+    background-color: #ecf5ff;
+    color: #409eff;
+}
+
+QToolButton:pressed, QToolButton:checked {
+    border: 1px solid #3a8ee6;
+    color: #409eff;
+}
+
+QMainWindow {
+    border-radius:5px;
+    background-color: #ffffff;
+}

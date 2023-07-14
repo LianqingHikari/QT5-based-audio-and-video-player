@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>847</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>847</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>847</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::StrongFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="images.qrc">
+    <normaloff>:/images/logo.jpg</normaloff>:/images/logo.jpg</iconset>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>40</width>
+    <height>40</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_6">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>11</number>
+    </property>
+    <property name="topMargin">
+     <number>11</number>
+    </property>
+    <property name="rightMargin">
+     <number>11</number>
+    </property>
+    <property name="bottomMargin">
+     <number>11</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="MainWidget" native="true">
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="AudioWidget" native="true">
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QWidget" name="AudioShowWidget" native="true">
+            <property name="mouseTracking">
+             <bool>true</bool>
+            </property>
+            <layout class="QGridLayout" name="gridLayout">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="3">
+              <spacer name="verticalSpacer">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Expanding</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="AlbumCoverLabel">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="mouseTracking">
+                <bool>true</bool>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::WinPanel</enum>
+               </property>
+               <property name="text">
+                <string>专辑封面</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2">
+              <spacer name="horizontalSpacer_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="2" column="4">
+              <spacer name="horizontalSpacer_5">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Expanding</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>10</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="3" column="3">
+              <spacer name="verticalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Expanding</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="1" column="0">
+              <spacer name="horizontalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="1" column="3">
+              <widget class="QWidget" name="widget" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_6">
+                <property name="spacing">
+                 <number>5</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="AudioInfoLabel">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="text">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style='line-height:30%'&gt;歌名&lt;/p&gt;&lt;p style='line-height:30%'&gt;歌手&lt;/p&gt;&lt;p style='line-height:30%'&gt;专辑&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="verticalSpacer_3">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Fixed</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>5</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QListWidget" name="LRCWidget">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="mouseTracking">
+                   <bool>true</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color:transparent;
+font: 700 11pt &quot;Microsoft YaHei&quot;;
+margin:7px 7px;</string>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::NoFrame</enum>
+                  </property>
+                  <property name="wordWrap">
+                   <bool>true</bool>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="textAlignment">
+                    <set>AlignCenter</set>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="WaveLabel">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="text">
+             <string>波形图</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="VideoScreenLabel">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::StrongFocus</enum>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="margin">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="FunctionWidget" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QWidget" name="ProcessWidget" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="mouseTracking">
+             <bool>true</bool>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <property name="leftMargin">
+              <number>5</number>
+             </property>
+             <property name="rightMargin">
+              <number>5</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="CurrentTimeLabel">
+               <property name="text">
+                <string>00:00:00</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="PlayerSlider" name="ProgressSlider">
+               <property name="mouseTracking">
+                <bool>true</bool>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QSlider::groove:horizontal{ 
+		height: 12px; 
+		left: 0px; 
+		right: 0px; 
+		border:0px;    //指定无边框
+	    border-radius:6px;    //指定圆角
+		background:rgba(0,0,0,50);
+ } 
+ //滑块的美化
+ QSlider::handle:horizontal{ 
+		width:  50px; 
+		height: 50px; 
+		margin-top: -20px; 
+		margin-left: 0px; 
+		margin-bottom: -20px; 
+		margin-right: 0px; 
+ 		border-image:url(:/res/images/setting_slider_handle.png);
+} 
+//已滑过的进度美化
+QSlider::sub-page:horizontal{
+	   background:rgba(80,166,234,1);
+}
+QSlider::sub-page:horizontal{
+	   background:rgba(80,166,234,1);
+}
+QSlider::add-page:horizontal
+{
+background: rgb(0,0,255);
+}</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="TotalTimeLabel">
+               <property name="text">
+                <string>00:00:00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="ButtonWidget" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="mouseTracking">
+             <bool>true</bool>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <property name="leftMargin">
+              <number>5</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>5</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="ModeWidget" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="mouseTracking">
+                <bool>true</bool>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_4">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="ChangeButtonColor" name="ModeButton">
+                  <property name="mouseTracking">
+                   <bool>true</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>单曲播放</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="images.qrc">
+                    <normaloff>:/images/PlaySingle.png</normaloff>:/images/PlaySingle.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="ChangeButtonColor" name="VoiceButton">
+                  <property name="mouseTracking">
+                   <bool>true</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>音量</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="images.qrc">
+                    <normaloff>:/images/Voice.png</normaloff>:/images/Voice.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="ChangeButtonColor" name="SetButton">
+                  <property name="mouseTracking">
+                   <bool>true</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="images.qrc">
+                    <normaloff>:/images/Set.png</normaloff>:/images/Set.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QWidget" name="PlayWidget" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="mouseTracking">
+                <bool>true</bool>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <item>
+                 <widget class="ChangeButtonColor" name="LastVedioButton">
+                  <property name="mouseTracking">
+                   <bool>true</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>上</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="images.qrc">
+                    <normaloff>:/images/Next.png</normaloff>:/images/Next.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="ChangeButtonColor" name="PlayButton">
+                  <property name="mouseTracking">
+                   <bool>true</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgba(128, 128, 128, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="images.qrc">
+                    <normaloff>:/images/Play.png</normaloff>:/images/Play.png</iconset>
+                  </property>
+                  <property name="checkable">
+                   <bool>false</bool>
+                  </property>
+                  <property name="popupMode">
+                   <enum>QToolButton::DelayedPopup</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="ChangeButtonColor" name="NextVedioButton">
+                  <property name="mouseTracking">
+                   <bool>true</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>下</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="images.qrc">
+                    <normaloff>:/images/Last.png</normaloff>:/images/Last.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QWidget" name="ControlWidget" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="mouseTracking">
+                <bool>true</bool>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_2">
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="ChangeButtonColor" name="FullScreenButton">
+                  <property name="mouseTracking">
+                   <bool>true</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>全屏</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="images.qrc">
+                    <normaloff>:/images/FullScreen.png</normaloff>:/images/FullScreen.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="ChangeButtonColor" name="AddButton">
+                  <property name="mouseTracking">
+                   <bool>true</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="images.qrc">
+                    <normaloff>:/images/Plus.png</normaloff>:/images/Plus.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="ChangeButtonColor" name="PlayListButton">
+                  <property name="mouseTracking">
+                   <bool>true</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>播放列表</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="images.qrc">
+                    <normaloff>:/images/PlayList.png</normaloff>:/images/PlayList.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="PlayListWidget" native="true">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>5</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>5</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QScrollArea" name="ScrollArea">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="ScrollAreaWidgetContents">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>256</width>
+            <height>558</height>
+           </rect>
+          </property>
+          <property name="mouseTracking">
+           <bool>true</bool>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="PlayListLabel">
+             <property name="styleSheet">
+              <string notr="true">QLabel
+{
+	background-color: #ffffff;
+	font: 25 10pt &quot;Microsoft YaHei&quot;;
+	font-weight:bold;
+}
+</string>
+             </property>
+             <property name="text">
+              <string>音视频列表</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="MyListWidget" name="ListWidget">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="mouseTracking">
+              <bool>true</bool>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::StrongFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QListWidget::item {
+    height: 50px;
+}
+
+QListWidget {
+	font: 12 11pt &quot;Microsoft YaHei&quot;;
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::HLine</enum>
+             </property>
+             <property name="dragDropMode">
+              <enum>QAbstractItemView::InternalMove</enum>
+             </property>
+             <property name="selectionMode">
+              <enum>QAbstractItemView::ExtendedSelection</enum>
+             </property>
+             <property name="movement">
+              <enum>QListView::Free</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ChangeButtonColor</class>
+   <extends>QToolButton</extends>
+   <header location="global">changebuttoncolor.h</header>
+  </customwidget>
+  <customwidget>
+   <class>PlayerSlider</class>
+   <extends>QSlider</extends>
+   <header location="global">playerslider.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MyListWidget</class>
+   <extends>QListWidget</extends>
+   <header location="global">mylistwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

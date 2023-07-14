@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SetVolume</class>
+ <widget class="QWidget" name="SetVolume">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>50</width>
+    <height>143</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::StrongFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border:1px solid black;
+border-radius: 10px;
+background-color: #ffffff;
+border: 1px solid #dcdfe6;
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="leftMargin">
+    <number>2</number>
+   </property>
+   <property name="topMargin">
+    <number>2</number>
+   </property>
+   <property name="rightMargin">
+    <number>2</number>
+   </property>
+   <property name="bottomMargin">
+    <number>2</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::handle {
+    border-radius:5px;
+    background:rgba(80,166,234,1);
+    width: 18px;
+    margin: -3px 0;
+}</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="leftMargin">
+       <number>2</number>
+      </property>
+      <property name="topMargin">
+       <number>2</number>
+      </property>
+      <property name="rightMargin">
+       <number>2</number>
+      </property>
+      <property name="bottomMargin">
+       <number>2</number>
+      </property>
+      <item>
+       <widget class="QSlider" name="verticalSlider">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:0px solid black;</string>
+        </property>
+        <property name="maximum">
+         <number>100</number>
+        </property>
+        <property name="value">
+         <number>100</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="ChangeButtonColor" name="toolButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="images.qrc">
+          <normaloff>:/images/Voice.png</normaloff>:/images/Voice.png</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ChangeButtonColor</class>
+   <extends>QToolButton</extends>
+   <header location="global">changebuttoncolor.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

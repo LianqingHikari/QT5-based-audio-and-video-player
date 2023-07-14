@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/Play.png</file>
+        <file>images/PlayList.png</file>
+        <file>images/PlaySingle.png</file>
+        <file>images/PlaySingleCycle.png</file>
+        <file>images/FullScreen.png</file>
+        <file>images/Next.png</file>
+        <file>images/PlayInOrder.png</file>
+        <file>images/Last.png</file>
+        <file>images/Stop.png</file>
+        <file>images/PlayRandom.png</file>
+        <file>images/Voice.png</file>
+        <file>images/Plus.png</file>
+        <file>images/Set.png</file>
+        <file>images/1x.png</file>
+        <file>images/2x.png</file>
+        <file>images/4x.png</file>
+        <file>images/Information.png</file>
+        <file>images/FiveFrame.png</file>
+        <file>images/OneFrame.png</file>
+        <file>images/SmallScreen.png</file>
+        <file>images/Mute.png</file>
+        <file>images/MusicAlbums.png</file>
+        <file>images/style.qss</file>
+        <file>images/logo.jpg</file>
+    </qresource>
+</RCC>

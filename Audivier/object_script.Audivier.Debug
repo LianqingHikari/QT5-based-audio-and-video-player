@@ -1,0 +1,17 @@
+debug/changebuttoncolor.o
+debug/getframe.o
+debug/main.o
+debug/mainwindow.o
+debug/media.o
+debug/mylistwidget.o
+debug/playerslider.o
+debug/setvolume.o
+debug/setwindow.o
+debug/qrc_images.o
+debug/moc_changebuttoncolor.o
+debug/moc_getframe.o
+debug/moc_mainwindow.o
+debug/moc_mylistwidget.o
+debug/moc_playerslider.o
+debug/moc_setvolume.o
+debug/moc_setwindow.o

@@ -1,0 +1,17 @@
+release/changebuttoncolor.o
+release/getframe.o
+release/main.o
+release/mainwindow.o
+release/media.o
+release/mylistwidget.o
+release/playerslider.o
+release/setvolume.o
+release/setwindow.o
+release/qrc_images.o
+release/moc_changebuttoncolor.o
+release/moc_getframe.o
+release/moc_mainwindow.o
+release/moc_mylistwidget.o
+release/moc_playerslider.o
+release/moc_setvolume.o
+release/moc_setwindow.o
