@@ -12,13 +12,5 @@
   - 设计文档.doc
   - 测试文档.doc
   - “!”小组开发过程文档链接汇总.pdf
-  - 演示视频.mkv
-  - 小组成员及分工.txt
 - 源代码与软件
-  - Audivier.zip：为软件源代码
-  - Audivier_可执行文件.zip
-  - Audivier_Win64_安装程序.zip
-
-## 使用方法
-
-解压“Audivier_Win64_安装程序.zip”并运行运行安装程序。或直接解压“Audivier__可执行文件.zip”阅读readme文件后运行Audiver.exe文件。
+  - Audivier.zip：为软件部分源代码
